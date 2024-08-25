@@ -8,7 +8,7 @@ fetch('data.json')
 function displayData(data) {
   const dashboard = document.querySelector('.dashboard');
   
-  dashboard.innerHTML = '<h1>IPL 2024 Player Statistics</h1>';
+  dashboard.innerHTML = '<h1>IPL 2024 Player Best Players </h1>';
 
   const selector = createSortSelector();
   dashboard.appendChild(selector);
